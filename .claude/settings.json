@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone --depth 1 https://github.com/ggml-org/whisper.cpp /opt/src/whisper.cpp)",
+      "Bash(cmake -S /opt/src/whisper.cpp -B /opt/src/whisper.cpp/build -DCMAKE_BUILD_TYPE=Release)",
+      "Bash(cmake --build /opt/src/whisper.cpp/build -j4 --config Release)"
+    ]
+  }
+}
