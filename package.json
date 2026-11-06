@@ -1,0 +1,48 @@
+{
+  "name": "edit-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trung1311/edit-video.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trung1311/edit-video/issues"
+  },
+  "homepage": "https://github.com/Trung1311/edit-video#readme",
+  "private": "true",
+  "type": "module",
+  "dependencies": {
+    "@motion-canvas/2d": "^3.17.2",
+    "@motion-canvas/core": "^3.17.2",
+    "@motion-canvas/ui": "^3.17.2",
+    "@motion-canvas/vite-plugin": "^3.17.2",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@react-three/postprocessing": "^3.2.2",
+    "@react-three/rapier": "^2.2.0",
+    "@remotion/cli": "^4.0.541",
+    "@rive-app/canvas": "^2.49.4",
+    "animejs": "^4.5.0",
+    "gsap": "^3.15.1",
+    "howler": "^2.2.4",
+    "lottie-web": "^5.13.0",
+    "mediabunny": "^1.65.2",
+    "motion": "^14.9.1",
+    "postprocessing": "^6.39.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541",
+    "satori": "^0.63.2",
+    "svgo": "^4.1.0",
+    "three": "^0.187.0",
+    "vite": "^5.4.21"
+  }
+}

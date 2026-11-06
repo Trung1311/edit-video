@@ -30,3 +30,10 @@ Nếu người dùng dặn cụ thể (cắt còn 60s, khổ 9:16, thêm nhạc,
   rồi build whisper.cpp theo 3 lệnh đã được cho phép trong `.claude/settings.json` và
   `ln -sf /opt/src/whisper.cpp/build/bin/whisper-cli /usr/local/bin/whisper-cli`.
   Chạy `hyperframes doctor` để kiểm tra.
+- Bộ công cụ dựng video (20 mục) — chạy `npm install` ở gốc repo nếu chưa có `node_modules/`:
+  - Skills (đã có trong `.claude/skills/`): Remotion Skills (`remotion-*`), Motion AI Kit (`motion`,
+    agent `.claude/agents/motion-reviewer.md`), GSAP Skills (`gsap-*`).
+  - Thư viện npm (`package.json`): SVGO, Satori, GSAP, Anime.js, Motion, Rive, Lottie, Remotion,
+    Motion Canvas (+ Vite 5), Three.js, React Three Fiber, Drei, Rapier, Postprocessing, Howler, Mediabunny.
+  - FFmpeg có sẵn trên máy (`/usr/bin/ffmpeg`).
+  - MCP của Motion (`mcp.motion.dev`) chưa được mở mạng nên chưa cấu hình.
